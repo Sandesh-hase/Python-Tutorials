@@ -27,3 +27,7 @@ print(a is c) # Same values but different address henve False
 
 print(a==b) # Compares values and not address
 print(a==c) # Compare values and not address hence True
+
+
+l = [2,3,4,5,6,7]
+print(l[2::])
